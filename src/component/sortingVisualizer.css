@@ -1,0 +1,18 @@
+.array-container {
+    /* display: flex;
+    justify-content: center;
+    align-content: center;
+    width: max-content; */
+    position: absolute;
+    bottom: 0%;
+    width: max-content;
+    margin: 0 50px;
+}
+
+.array-bar {
+    width: 5px;
+    background-color: #00563f;
+    display: inline-block;
+    margin: 0 1px;
+    color: wheat;
+}
