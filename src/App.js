@@ -4,7 +4,10 @@ import SortingVisualizer from './component/sortingVisualizer';
 function App() {
   return (
     <div className="App">
-      <SortingVisualizer></SortingVisualizer>
+      <h1> Welcome to Sorting Styles</h1>
+      <div className="app-card">
+        <SortingVisualizer></SortingVisualizer>
+      </div>
     </div>
   );
 }
