@@ -6,6 +6,7 @@
   align-items: center;
   background-color: lightgrey;
   height: 100vh;
+  max-width: 2000px;
 }
 
 .app-card {
@@ -17,6 +18,8 @@
   box-shadow: -10px -10px 15px rgba(116, 111, 111, 0.5), 
       10px 10px 15px rgba(44, 43, 43, 0.12);
   border-radius: 12px;
+  width: 98%;
+  overflow: hidden;
 }
 
 h1 { 

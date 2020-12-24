@@ -6,6 +6,7 @@
     /* position: absolute;
     bottom: 0%; */
     width: max-content;
+    overflow: hidden;
     margin: 0 50px;
 }
 
