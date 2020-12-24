@@ -1,13 +1,7 @@
 .array-container {
-    /* display: flex;
-    justify-content: center;
-    align-content: center;
-    width: max-content; */
-    /* position: absolute;
-    bottom: 0%; */
     width: max-content;
     overflow: hidden;
-    margin: 0 50px;
+    margin: 15px 50px;
 }
 
 .array-bar {
