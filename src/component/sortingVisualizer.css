@@ -1,53 +1,41 @@
 .array-container {
-    width: max-content;
-    overflow: hidden;
-    margin: 15px 50px;
+  width: 95%;
+  overflow: hidden;
+  margin: 15px 50px;
+  margin-bottom: 0;
 }
 
 .array-bar {
-    width: 5px;
-    background-color: #00563f;
-    display: inline-block;
-    margin: 0 1px;
-    color: wheat;
+  width: 5px;
+  background-color: #00563f;
+  display: inline-block;
+  margin: 0 1px;
+  color: wheat;
 }
 .btn-styles {
-    margin-top: 45px;
-    display: flex;
+  margin-top: 45px;
+  display: flex;
 }
 .btn {
-    margin: 10px;
-    height: 100px;
-    width: 120px;
-    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5), 
-      10px 10px 15px rgba(70,70,70,0.12);
-    transform: translate(-50%, -50%);
-    color: #00563f;
-    font-size: 1.2rem;
-    font-weight: bolder;
-    border-radius: 50%;
-    border: 8px solid #ececec;
-    outline: none;
+  margin: 10px;
+  height: 100px;
+  width: 120px;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
+  transform: translate(-50%, -50%);
+  color: #00563f;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  border-radius: 50%;
+  border: 8px solid #ececec;
+  outline: none;
 }
 
 .btn:hover {
-    box-shadow:  rgba(255, 255, 255, 0.234);
-    transform: translate(-40%, -40%);
-    text-shadow:
-    0 1px #808d93,
-    -1px 0 #cdd2d5,
-    -1px 2px #808d93,
-    -2px 1px #cdd2d5,
-    -2px 3px #808d93,
-    -3px 2px #cdd2d5,
-    -3px 4px #808d93,
-    -4px 3px #cdd2d5,
-    -4px 5px #808d93,
-    -5px 4px #cdd2d5,
-    -5px 6px #808d93,
-    -6px 5px #cdd2d5,
-    -6px 7px #808d93,
-    -7px 6px #cdd2d5,
-    -7px 8px #808d93,
-    -8px 7px #cdd2d5;
+  box-shadow: rgba(255, 255, 255, 0.234);
+  transform: translate(-40%, -40%);
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5,
+    -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5,
+    -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5,
+    -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
 }
